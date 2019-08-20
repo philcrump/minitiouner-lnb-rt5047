@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name agg-kicad)(type KiCad)(uri ${KIPRJMOD}/lib/agg-kicad)(options "")(descr ""))
+)

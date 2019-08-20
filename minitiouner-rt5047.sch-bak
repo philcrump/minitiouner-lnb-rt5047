@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L agg-kicad:RT5047A IC?
+U 1 1 5D5C74BF
+P 3750 2300
+F 0 "IC?" H 3750 2725 50  0000 C CNN
+F 1 "RT5047A" H 3750 2634 50  0000 C CNN
+F 2 "agg:SOIC-8-EP" H 3450 1900 50  0001 L CNN
+F 3 "https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf" H 3450 1800 50  0001 L CNN
+F 4 "2545957" H 3450 1700 50  0001 L CNN "Farnell"
+	1    3750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:RT5047A IC?
+U 1 1 5D5C8177
+P 3750 3350
+F 0 "IC?" H 3750 3775 50  0000 C CNN
+F 1 "RT5047A" H 3750 3684 50  0000 C CNN
+F 2 "agg:SOIC-8-EP" H 3450 2950 50  0001 L CNN
+F 3 "https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf" H 3450 2850 50  0001 L CNN
+F 4 "2545957" H 3450 2750 50  0001 L CNN "Farnell"
+	1    3750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:L L?
+U 1 1 5D5C89C8
+P 3000 1800
+F 0 "L?" H 3050 1981 50  0000 C CNN
+F 1 "10u" H 3050 1890 50  0000 C CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:L L?
+U 1 1 5D5C921E
+P 3000 2950
+F 0 "L?" H 3050 3131 50  0000 C CNN
+F 1 "10u" H 3050 3040 50  0000 C CNN
+F 2 "" H 3000 2950 50  0001 C CNN
+F 3 "" H 3000 2950 50  0001 C CNN
+	1    3000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5D5C99E6
+P 2100 2050
+F 0 "C?" V 2104 2108 50  0000 L CNN
+F 1 "C" V 2195 2108 50  0000 L CNN
+F 2 "" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5D5CA892
+P 2300 2050
+F 0 "C?" V 2304 2108 50  0000 L CNN
+F 1 "C" V 2395 2108 50  0000 L CNN
+F 2 "" H 2300 2050 50  0001 C CNN
+F 3 "" H 2300 2050 50  0001 C CNN
+	1    2300 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5D5CAC39
+P 3050 2400
+F 0 "C?" V 3054 2458 50  0000 L CNN
+F 1 "C" V 3145 2458 50  0000 L CNN
+F 2 "" H 3050 2400 50  0001 C CNN
+F 3 "" H 3050 2400 50  0001 C CNN
+	1    3050 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5D5CB061
+P 2150 3150
+F 0 "C?" V 2154 3208 50  0000 L CNN
+F 1 "C" V 2245 3208 50  0000 L CNN
+F 2 "" H 2150 3150 50  0001 C CNN
+F 3 "" H 2150 3150 50  0001 C CNN
+	1    2150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5D5CB41F
+P 2350 3150
+F 0 "C?" V 2354 3208 50  0000 L CNN
+F 1 "C" V 2445 3208 50  0000 L CNN
+F 2 "" H 2350 3150 50  0001 C CNN
+F 3 "" H 2350 3150 50  0001 C CNN
+	1    2350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5D5CB690
+P 3050 3450
+F 0 "C?" V 3054 3508 50  0000 L CNN
+F 1 "C" V 3145 3508 50  0000 L CNN
+F 2 "" H 3050 3450 50  0001 C CNN
+F 3 "" H 3050 3450 50  0001 C CNN
+	1    3050 3450
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
