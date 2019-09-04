@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 27)
@@ -1147,18 +1147,6 @@
     )
   )
 
-  (gr_line (start 139.954 74.93) (end 139.954 121.92) (layer F.SilkS) (width 0.12) (tstamp 5D703BB0))
-  (gr_line (start 136.906 74.93) (end 139.954 74.93) (layer F.SilkS) (width 0.12))
-  (gr_line (start 136.906 121.92) (end 136.906 74.93) (layer F.SilkS) (width 0.12))
-  (gr_line (start 139.954 121.92) (end 136.906 121.92) (layer F.SilkS) (width 0.12))
-  (gr_line (start 40.005 121.92) (end 43.053 121.92) (layer F.SilkS) (width 0.12) (tstamp 5D703BAF))
-  (gr_line (start 40.005 74.93) (end 40.005 121.92) (layer F.SilkS) (width 0.12))
-  (gr_line (start 43.053 74.93) (end 40.005 74.93) (layer F.SilkS) (width 0.12))
-  (gr_line (start 43.053 121.92) (end 43.053 74.93) (layer F.SilkS) (width 0.12))
-  (gr_line (start 72.39 121.92) (end 87.63 121.92) (layer F.SilkS) (width 0.12) (tstamp 5D703BAE))
-  (gr_line (start 72.39 119.38) (end 72.39 121.92) (layer F.SilkS) (width 0.12))
-  (gr_line (start 87.63 119.38) (end 72.39 119.38) (layer F.SilkS) (width 0.12))
-  (gr_line (start 87.63 121.92) (end 87.63 119.38) (layer F.SilkS) (width 0.12))
   (gr_arc (start 40.64 121.285) (end 40.005 121.285) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 139.319 121.285) (end 139.319 121.92) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 40.64 121.92) (end 139.319 121.92) (layer Edge.Cuts) (width 0.05))
@@ -1198,6 +1186,21 @@
     (polygon
       (pts
         (xy 139.954 121.92) (xy 136.906 121.92) (xy 136.906 74.93) (xy 139.954 74.93)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.SilkS) (tstamp 0) (hatch full 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 87.63 121.92) (xy 87.63 119.38) (xy 72.39 119.38) (xy 72.39 121.92)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 87.503 121.793) (xy 72.517 121.793) (xy 72.517 119.507) (xy 87.503 119.507)
       )
     )
   )
