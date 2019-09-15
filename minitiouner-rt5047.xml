@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/phil/Projects/minitiouner-lnb-rt5047/minitiouner-rt5047.sch</source>
+    <date>Sun 15 Sep 2019 17:46:58 BST</date>
+    <tool>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>minitiouner-rt5047.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC2">
+      <value>RT5047A</value>
+      <footprint>agg:SOIC-8-EP</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2545957</field>
+      </fields>
+      <libsource lib="minitiouner-rt5047-rescue" part="RT5047A-agg-kicad" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5C8177</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10u</value>
+      <footprint>agg:1210</footprint>
+      <libsource lib="agg-kicad" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5C921E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5CB690</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SS14</value>
+      <footprint>agg:SOD-123</footprint>
+      <libsource lib="agg-kicad" part="SCHOTTKY" description="Schottky Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5CBF59</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SS14</value>
+      <footprint>agg:SOD-123</footprint>
+      <libsource lib="agg-kicad" part="SCHOTTKY" description="Schottky Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5CD78D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5CB41F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5CB061</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714939</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D714943</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SS14</value>
+      <footprint>agg:SOD-123</footprint>
+      <libsource lib="agg-kicad" part="SCHOTTKY" description="Schottky Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7268F2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D72DCEE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>agg:0805</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D72DCF8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SMDJ20A</value>
+      <footprint>agg:DO-214AB-SMC</footprint>
+      <fields>
+        <field name="Farnell">2777300</field>
+      </fields>
+      <libsource lib="agg-kicad" part="SCHOTTKY" description="Schottky Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D73266D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4K7</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7388BE</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>TONE_REMOTE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D74C66C</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>USB_CONTROL</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D75B968</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>12V_INPUT</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D75D6A8</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TLV76033</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv760.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2773545</field>
+      </fields>
+      <libsource lib="agg-kicad" part="TLV76033" description="Fixed Output LDO Regulator 3.3v 100mA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77D5CA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77E453</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77F4E7</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>VSEL_SWITCH</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D79CB70</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4K7</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7AE684</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47K</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7B12CB</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>agg:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FARNELL">2859031</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C3C7C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C4B20</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>agg:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FARNELL">2859031</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C508E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C578D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>A_LNB_POWER</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7DBC8C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>FAULT_LED</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F60CC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>47K</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D820FB9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47K</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D882795</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>EN_REMOTE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D88896B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="FARNELL">1902482</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D768D02</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>47R</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D76DC55</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>agg:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FARNELL">2859031</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0F5C</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0F62</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>agg:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FARNELL">2859031</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0F68</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0F6E</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>B_LNB_POWER</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0F7B</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>SEL_REMOTE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D84026A</tstamp>
+    </comp>
+    <comp ref="FB5">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>agg:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="FARNELL">2859031</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D85E711</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D727459</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D89432C</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D89CB3C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8ADA98</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8ADF57</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8C2A34</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TONE_SWITCH</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="agg-kicad" part="CONN_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8EB7F1</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4K7</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D91BE7A</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>agg:0603</footprint>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D994947</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="CONN_01x02">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="CONN_01x03">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="CONN_01x04">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="SCHOTTKY">
+      <description>Schottky Diode</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SCHOTTKY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="TLV76033">
+      <description>Fixed Output LDO Regulator 3.3v 100mA</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv760.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV76033</field>
+        <field name="Footprint">agg:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv760.pdf</field>
+        <field name="Farnell">2773545</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="minitiouner-rt5047-rescue" part="RT5047A-agg-kicad">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">RT5047A-agg-kicad</field>
+        <field name="Footprint">agg:SOIC-8-EP</field>
+        <field name="Datasheet">https://www.richtek.com/assets/product_file/RT5047A/DS5047A-00.pdf</field>
+        <field name="Farnell">2545957</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LNB" type="power_out"/>
+        <pin num="2" name="BOOST" type="passive"/>
+        <pin num="3" name="LX" type="passive"/>
+        <pin num="4" name="VIN" type="input"/>
+        <pin num="5" name="TONE" type="input"/>
+        <pin num="6" name="FAULT" type="output"/>
+        <pin num="7" name="SEL" type="input"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="EP" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="agg-kicad">
+      <uri>/home/phil/Projects/minitiouner-lnb-rt5047/lib/agg-kicad/agg-kicad.lib</uri>
+    </library>
+    <library logical="minitiouner-rt5047-rescue">
+      <uri>/home/phil/Projects/minitiouner-lnb-rt5047/minitiouner-rt5047-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3v3">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C8" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="IC2" pin="EP"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="4" name="A_TONE_PIN">
+      <node ref="J7" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="6" name="A_TONE_REMOTE">
+      <node ref="J5" pin="2"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="7" name="A_SEL_REMOTE">
+      <node ref="J5" pin="3"/>
+      <node ref="JP3" pin="2"/>
+    </net>
+    <net code="8" name="A_EN_REMOTE">
+      <node ref="JP1" pin="2"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="9" name="Net-(C14-Pad1)">
+      <node ref="FB4" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C13-Pad1)">
+      <node ref="FB3" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="FB4" pin="2"/>
+    </net>
+    <net code="11" name="A_FAULT_PIN">
+      <node ref="Q1" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C12-Pad1)">
+      <node ref="FB2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="13" name="A_EN_PIN">
+      <node ref="R1" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="14" name="Net-(JP2-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(JP3-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(FB5-Pad2)">
+      <node ref="FB5" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C16-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="20" name="A_SEL_PIN">
+      <node ref="IC2" pin="7"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C7-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="FB2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad2)">
+      <node ref="C6" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="FB5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C15" pin="1"/>
+    </net>
+  </nets>
+</export>
