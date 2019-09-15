@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name agg-kicad)(type Legacy)(uri ${KIPRJMOD}/lib/agg-kicad/agg-kicad.lib)(options "")(descr ""))
+  (lib (name minitiouner-rt5047-rescue)(type Legacy)(uri ${KIPRJMOD}/minitiouner-rt5047-rescue.lib)(options "")(descr ""))
 )
